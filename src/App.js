@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Project from "./components/Project";
@@ -11,6 +12,7 @@ function App() {
       <Home></Home>
       <About></About>
       <Project></Project>
+      <Contact></Contact>
 
       <SocialIcon></SocialIcon>
       
