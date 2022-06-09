@@ -19,7 +19,7 @@ const Home = () => {
           </p>
 
           <div className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-700 cursor-pointer">
-            <button>Portfolio</button>
+            <button>Project</button>
           </div>
         </div>
 
