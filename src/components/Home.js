@@ -1,5 +1,7 @@
 import React from "react";
 import rakib from '../assets/rakib.jpg';
+import { Link } from "react-scroll";
+
 
 const Home = () => {
   return (
@@ -18,9 +20,17 @@ const Home = () => {
             like React, Tailwind, Bootstrap, Node JS, Express JS and MongoDB.
           </p>
 
-          <div className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-700 cursor-pointer">
-            <button>Project</button>
+          <div>
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-700 cursor-pointer"
+            >
+              Project
+            </Link>
           </div>
+
         </div>
 
         <div>
